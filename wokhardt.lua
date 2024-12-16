@@ -629,7 +629,7 @@ function Menu:EnableHELL()
 
             local penetration60 = shellType:FindFirstChild("Penetration60")
             if penetration60 then
-                penetration60.Value = 999999999
+                penetration60.Value = 3000
             end
 
             local explosiveMult = shellType:FindFirstChild("ExplosiveMult")
@@ -649,7 +649,7 @@ function Menu:EnableHELL()
 
             local shellSpeed = shellType:FindFirstChild("ShellSpeed")
             if shellSpeed then
-                shellSpeed.Value = 999999999
+                shellSpeed.Value = 3000
             end
 
             local bulletGravity = shellType:FindFirstChild("BulletGravity")
