@@ -629,27 +629,27 @@ function Menu:EnableHELL()
 
             local penetration60 = shellType:FindFirstChild("Penetration60")
             if penetration60 then
-                penetration60.Value = 999999999
+                penetration60.Value = 900
             end
 
             local explosiveMult = shellType:FindFirstChild("ExplosiveMult")
             if explosiveMult then
-                explosiveMult.Value = 999999999
+                explosiveMult.Value = 900
             end
 
             local penetration = shellType:FindFirstChild("Penetration")
             if penetration then
-                penetration.Value = 999999999
+                penetration.Value = 900
             end
 
             local ricochetAngle = shellType:FindFirstChild("RicochetAngle")
             if ricochetAngle then
-                ricochetAngle.Value = 999999999
+                ricochetAngle.Value = 90
             end
 
             local shellSpeed = shellType:FindFirstChild("ShellSpeed")
             if shellSpeed then
-                shellSpeed.Value = 999999999
+                shellSpeed.Value = 900000
             end
 
             local bulletGravity = shellType:FindFirstChild("BulletGravity")
