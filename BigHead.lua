@@ -1,4 +1,4 @@
-_G.HeadSize = Vector3.new(4, 4, 4) -- Adjust this value as needed
+_G.HeadSize = Vector3.new(6, 6, 6) -- Adjust this value as needed
 _G.HumanoidRootPartSize = Vector3.new(2, 2, 2) -- Adjust this value as needed
 _G.Disabled = false
 
